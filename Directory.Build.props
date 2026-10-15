@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <!-- Each project names its own framework: set here, it would reach AberrationCalculator's projects too,
+         and Visual Studio would then take its multi-targeted ones for net8.0 alone. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Javier Ruiz, Claude Code</Authors>
+    <Company>Javier Ruiz</Company>
+    <Copyright>Copyright (c) 2026 Javier Ruiz and Claude Code</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <Description>General-purpose lens tolerancing for rotationally symmetric designs with spheres and even aspheres: sensitivity, allocation, statistics, Monte Carlo with compensators, and ISO 10110 element drawings for fabrication</Description>
+  </PropertyGroup>
+  <Import Project="AberrationCalculator.Location.props" />
+</Project>

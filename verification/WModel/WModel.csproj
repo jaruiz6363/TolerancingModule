@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Verification section 3.3: a model fitted in W, as Koch fitted it, against the module's model in W² and traced lenses. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WModel</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Tolerancing.Core\Tolerancing.Core.csproj" />
+  </ItemGroup>
+
+  <!-- AberrationCalculator's glass catalogs, for reading lenses. -->
+  <ItemGroup>
+    <None Include="$(AberrationCalculatorDir)catalogs/**/*" CopyToOutputDirectory="PreserveNewest" LinkBase="catalogs" />
+  </ItemGroup>
+</Project>

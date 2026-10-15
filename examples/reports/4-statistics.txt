@@ -1,0 +1,41 @@
+$ tol statistics cooke_triplet.zmx --tolerances tolerances/cooke_triplet.tol --limit 2 --montecarlo 1000 --seed 5 --plots plots
+
+cooke_triplet.zmx: 48 tolerances, from cooke_triplet.tol, fringes at 0.6328 µm
+criterion   RMS wavefront (waves, polychromatic)
+compensators focus (surface 7, back focus)
+errors     uniform, x and y independent; cross terms wavefront
+
+largest contributions to the mean of W² and its variance
+tolerance           mean of W²     σ² of W²
+TTHI 4              1.131E-002   5.885E-002
+TTHI 5              6.335E-003   3.673E-002
+TTHI 3              9.996E-003   3.432E-002
+TTHI 2              1.109E-002   3.210E-002
+TIRR 2              4.369E-003   2.853E-002
+TIRR 1              4.020E-003   2.639E-002
+TTHI 6              4.330E-003   2.086E-002
+TIRR 4              3.737E-003   1.737E-002
+TFRN 3              2.709E-003   1.644E-002
+TIRR 3              2.907E-003   1.502E-002
+TIRR 7              2.655E-003   1.444E-002
+TIRR 6              2.544E-003   8.093E-003
+
+error budget by kind: mean and σ added to W², and each node alone as √(mean + 2σ) waves
+All tolerances                      3.976E-001  6.319E-001   1.28890
+  Surface form                      3.097E-002  3.849E-001   0.89481
+  Surface centering (wedge)         6.171E-002  1.657E-002   0.30799
+  Thickness and air spaces          4.418E-002  4.292E-001   0.94999
+  Glass                             8.641E-004  4.013E-002   0.28483
+  Element alignment                 2.598E-001  7.784E-002   0.64461
+  Interactions (cross terms)        0.000E+000  2.429E-001   0.69701
+  Biases                            0.000E+000  0.000E+000   0.00000
+
+Koch        nominal 1.35867   √mean W² 1.49785   σ(W²) 6.319E-001  skew 0.51  (cross terms 15 % of the variance)
+            mean+2σ 1.87276 (normal)   84.1 % 1.69760   97.7 % 1.91014 (sampled)   yield at 2: 99.2 %
+            focus (surface 7) moves +0.0087 ± 0.7676 mm: ±1.5439 mm for 95.4 %, ±2.3115 mm for 99.7 %
+model check 12 lenses traced against the quadratic model: within 0.5 % RMS, 1.4 % at worst
+Monte Carlo 1000 lenses, seed 5: √mean W² 1.50301   σ(W²) 6.683E-001  skew 0.53   mean W² 2.2590E+000 ± 2.1E-002 against Koch 2.2435E+000
+            median 1.47775   84.1 % 1.71654   97.7 % 1.92933   yield at 2: 99.0 %
+            focus (surface 7) moved -2.0699 to +2.0467 mm
+plots       3 charts as SVG and PNG, and monte-carlo.html, in plots
+37.5 s

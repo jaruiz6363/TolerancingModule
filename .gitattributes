@@ -1,0 +1,2 @@
+# Drawings are kept byte for byte as tol writes them.
+examples/drawings/** -text

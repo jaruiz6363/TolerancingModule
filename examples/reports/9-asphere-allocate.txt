@@ -1,0 +1,39 @@
+$ tol allocate aspheric_singlet.zmx --limit 0.17 --method cost --write-tolerances tolerances/aspheric_singlet.tol
+
+aspheric_singlet.zmx: 17 tolerances, Commercial grade to start, fringes at 0.6328 µm
+criterion   RMS wavefront (waves, polychromatic)
+compensators focus (surface 2, back focus)
+errors     uniform, x and y independent; cross terms wavefront
+goal        97.7 % of lenses within 0.17 waves (sampled spread)   method CostOptimal   refits 1
+
+type  surf          min          max      tightest       loosest   mean of W²     σ² of W²
+TFRN     1          -50           50             1            50   7.522E-006   1.708E-007 loosest
+TIRR     1         -1.5          1.5          0.25            10   5.903E-004   2.231E-006
+TST*     1        -0.08         0.08       0.00573        0.1935   5.099E-004   1.040E-007
+TSD*     1         -0.1          0.1          0.01           0.1   7.622E-005   2.331E-009 loosest
+TFRN     2          -40           40             1            50   1.664E-004   5.393E-007
+TIRR     2         -1.5          1.5          0.25            10   4.600E-004   2.166E-006
+TST*     2        -0.08         0.08       0.00573        0.1935   5.960E-004   1.426E-007
+TTHI     1         -0.2          0.2          0.05           0.2   1.120E-006   7.491E-009 loosest
+TIND     1       -0.001        0.001        0.0002         0.001   5.522E-007   3.350E-009 loosest
+TABB     1      -0.5133       0.5133        0.1925        0.5133   0.000E+000   0.000E+000 loosest
+TED*   1-2         -0.2          0.2         0.025           0.2  -3.165E-007   8.015E-014 loosest
+TET*   1-2         -0.2          0.2          0.02           0.2   2.921E-004   5.061E-008 loosest
+* an x-y pair, such as TST* for TSTX and TSTY: one error in some direction, given one value; its mean and σ² are the two together
+cost (Adams, Σ tightest/t)  1.67
+
+error budget by kind: mean and σ added to W², and each node alone as √(mean + 2σ) waves
+All tolerances                      2.700E-003  2.697E-003   0.08997
+  Surface form                      1.224E-003  2.260E-003   0.07579
+  Surface centering (wedge)         1.182E-003  4.990E-004   0.04669
+  Thickness and air spaces          1.120E-006  8.655E-005   0.01320
+  Glass                             5.522E-007  5.788E-005   0.01078
+  Element alignment                 2.918E-004  2.250E-004   0.02723
+  Interactions (cross terms)        0.000E+000  1.363E-003   0.05221
+  Biases                            0.000E+000  0.000E+000   0.00000
+
+Koch        nominal 0.13662   √mean W² 0.14616   σ(W²) 2.697E-003  skew 1.00  (cross terms 26 % of the variance)
+            mean+2σ 0.16358 (normal)   84.1 % 0.15495   97.7 % 0.16817 (sampled)   yield at 0.17: 98.4 %
+            focus (surface 2) moves +0.0087 ± 0.6335 mm: ±1.2757 mm for 95.4 %, ±1.9092 mm for 99.7 %
+model check 12 lenses traced against the quadratic model: within 0.4 % RMS, 0.8 % at worst
+2.7 s

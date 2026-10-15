@@ -1,0 +1,63 @@
+$ tol allocate cooke_triplet.zmx --limit 2 --method cost --write-tolerances tolerances/cooke_triplet.tol --report reports/cooke_triplet.json
+
+cooke_triplet.zmx: 48 tolerances, Commercial grade to start, fringes at 0.6328 µm
+criterion   RMS wavefront (waves, polychromatic)
+compensators focus (surface 7, back focus)
+errors     uniform, x and y independent; cross terms wavefront
+goal        97.7 % of lenses within 2 waves (sampled spread)   method CostOptimal   refits 1
+
+type  surf          min          max      tightest       loosest   mean of W²     σ² of W²
+TFRN     1          -30           30             1            50   8.701E-004   2.604E-003
+TIRR     1           -1            1          0.25            10   4.020E-003   2.639E-002
+TST*     1         -0.1          0.1       0.00573        0.1612   7.103E-003   2.036E-005
+TFRN     2          -12           12             1            50   2.337E-003   6.285E-003
+TIRR     2         -1.2          1.2          0.25            10   4.369E-003   2.853E-002
+TST*     2        -0.08         0.08       0.00573        0.1612   1.036E-002   4.385E-005
+TFRN     3           -8            8             1            50   2.709E-003   1.644E-002
+TIRR     3         -1.5          1.5          0.25            10   2.907E-003   1.502E-002
+TST*     3        -0.05         0.05       0.00573        0.1613   1.205E-002   5.964E-005
+TFRN     4          -20           20             1            50   1.665E-003   6.626E-003
+TIRR     4           -2            2          0.25            10   3.737E-003   1.737E-002
+TST*     4        -0.08         0.08       0.00573        0.1613   1.230E-002   6.074E-005
+TFRN     6          -50           50             1            50   2.226E-003   6.417E-004 loosest
+TIRR     6           -4            4          0.25            10   2.544E-003   8.093E-003
+TST*     6         -0.1          0.1       0.00573        0.1612   6.549E-003   1.716E-005
+TFRN     7          -15           15             1            50   9.306E-004   5.671E-003
+TIRR     7         -2.5          2.5          0.25            10   2.655E-003   1.444E-002
+TST*     7        -0.06         0.06       0.00573        0.1612   1.336E-002   7.293E-005
+TTHI     1         -0.2          0.2          0.05           0.2   1.118E-003   1.302E-003 loosest
+TTHI     2        -0.15         0.15          0.05           0.2   1.109E-002   3.210E-002
+TTHI     3        -0.15         0.15          0.05           0.2   9.996E-003   3.432E-002
+TTHI     4        -0.12         0.12          0.05           0.2   1.131E-002   5.885E-002
+TTHI     5        -0.12         0.12          0.05           0.2   6.335E-003   3.673E-002
+TTHI     6        -0.15         0.15          0.05           0.2   4.330E-003   2.086E-002
+TIND     1       -0.001        0.001        0.0002         0.001   7.954E-005   1.110E-006 loosest
+TABB     1      -0.4826       0.4826         0.181        0.4826   2.357E-004   1.796E-004 loosest
+TIND     3       -0.001        0.001        0.0002         0.001   1.043E-004   3.226E-004 loosest
+TABB     3      -0.2909       0.2909        0.1091        0.2909   2.162E-004   5.604E-005 loosest
+TIND     6       -0.001        0.001        0.0002         0.001   1.914E-004   1.019E-003 loosest
+TABB     6      -0.4826       0.4826         0.181        0.4826   3.702E-005   3.246E-005 loosest
+TED*   1-2        -0.08         0.08         0.025           0.2   4.018E-002   6.471E-004
+TET*   1-2        -0.12         0.12          0.02           0.2   1.963E-002   1.789E-004
+TED*   3-4        -0.03         0.03         0.025           0.2   7.534E-002   2.278E-003
+TET*   3-4         -0.1          0.1          0.02           0.2   3.287E-002   4.961E-004
+TED*   6-7        -0.04         0.04         0.025           0.2   7.597E-002   2.354E-003
+TET*   6-7        -0.12         0.12          0.02           0.2   1.585E-002   1.055E-004
+* an x-y pair, such as TST* for TSTX and TSTY: one error in some direction, given one value; its mean and σ² are the two together
+cost (Adams, Σ tightest/t)  7.87
+
+error budget by kind: mean and σ added to W², and each node alone as √(mean + 2σ) waves
+All tolerances                      3.976E-001  6.319E-001   1.28890
+  Surface form                      3.097E-002  3.849E-001   0.89481
+  Surface centering (wedge)         6.171E-002  1.657E-002   0.30799
+  Thickness and air spaces          4.418E-002  4.292E-001   0.94999
+  Glass                             8.641E-004  4.013E-002   0.28483
+  Element alignment                 2.598E-001  7.784E-002   0.64461
+  Interactions (cross terms)        0.000E+000  2.429E-001   0.69701
+  Biases                            0.000E+000  0.000E+000   0.00000
+
+Koch        nominal 1.35867   √mean W² 1.49785   σ(W²) 6.319E-001  skew 0.51  (cross terms 15 % of the variance)
+            mean+2σ 1.87276 (normal)   84.1 % 1.69760   97.7 % 1.91014 (sampled)   yield at 2: 99.2 %
+            focus (surface 7) moves +0.0087 ± 0.7676 mm: ±1.5439 mm for 95.4 %, ±2.3115 mm for 99.7 %
+model check 12 lenses traced against the quadratic model: within 0.5 % RMS, 1.4 % at worst
+26.9 s

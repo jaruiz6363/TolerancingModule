@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="279.4mm" height="215.9mm" viewBox="0 0 279.4 215.9">
+<rect width="279.4" height="215.9" fill="white"/>
+<polygon points="10,205.9 269.4,205.9 269.4,10 10,10" fill="none" stroke="black" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="80.746,41.45 80.685,42.622 80.626,43.794 80.568,44.966 80.513,46.138 80.459,47.309 80.408,48.481 80.358,49.653 80.31,50.825 80.265,51.997 80.221,53.169 80.179,54.341 80.139,55.513 80.101,56.684 80.065,57.856 80.031,59.028 79.999,60.2 79.969,61.372 79.941,62.544 79.914,63.716 79.89,64.888 79.868,66.059 79.847,67.231 79.829,68.403 79.812,69.575 79.798,70.747 79.785,71.919 79.774,73.091 79.766,74.263 79.759,75.434 79.754,76.606 79.751,77.778 79.75,78.95 79.751,80.122 79.754,81.294 79.759,82.466 79.766,83.638 79.774,84.809 79.785,85.981 79.798,87.153 79.812,88.325 79.829,89.497 79.847,90.669 79.868,91.841 79.89,93.013 79.914,94.184 79.941,95.356 79.969,96.528 79.999,97.7 80.031,98.872 80.065,100.044 80.101,101.216 80.139,102.388 80.179,103.559 80.221,104.731 80.265,105.903 80.31,107.075 80.358,108.247 80.408,109.419 80.459,110.591 80.513,111.763 80.568,112.934 80.626,114.106 80.685,115.278 80.746,116.45 83.356,116.45 83.933,115.278 84.488,114.106 85.021,112.934 85.533,111.763 86.023,110.591 86.493,109.419 86.942,108.247 87.371,107.075 87.78,105.903 88.17,104.731 88.541,103.559 88.893,102.388 89.227,101.216 89.542,100.044 89.839,98.872 90.118,97.7 90.379,96.528 90.622,95.356 90.849,94.184 91.057,93.013 91.249,91.841 91.424,90.669 91.581,89.497 91.722,88.325 91.846,87.153 91.953,85.981 92.044,84.809 92.118,83.638 92.176,82.466 92.217,81.294 92.242,80.122 92.25,78.95 92.242,77.778 92.217,76.606 92.176,75.434 92.118,74.263 92.044,73.091 91.953,71.919 91.846,70.747 91.722,69.575 91.581,68.403 91.424,67.231 91.249,66.059 91.057,64.888 90.849,63.716 90.622,62.544 90.379,61.372 90.118,60.2 89.839,59.028 89.542,57.856 89.227,56.684 88.893,55.513 88.541,54.341 88.17,53.169 87.78,51.997 87.371,50.825 86.942,49.653 86.493,48.481 86.023,47.309 85.533,46.138 85.021,44.966 84.488,43.794 83.933,42.622 83.356,41.45" fill="none" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="73.75,78.95 98.25,78.95" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 1.5 1 1.5"/>
+<polyline points="79.75,79.95 79.75,125.95" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="92.25,79.95 92.25,125.95" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="79.75,124.45 92.25,124.45" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="79.75,124.45 82.25,125.05 82.25,123.85" fill="black" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="92.25,124.45 89.75,123.85 89.75,125.05" fill="black" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="129.45" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="middle">2.500 ±0.150</text>
+<polyline points="84.356,116.45 101.75,116.45" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="84.356,41.45 101.75,41.45" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="100.25,116.45 100.25,41.45" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="100.25,116.45 100.85,113.95 99.65,113.95" fill="black" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="100.25,41.45 99.65,43.95 100.85,43.95" fill="black" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="101.75" y="80.2" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">Ø15.00 +0.000/-0.050</text>
+<text x="77.75" y="37.45" font-family="Helvetica, Arial, sans-serif" font-size="4.875" text-anchor="end" font-weight="bold">1</text>
+<text x="94.25" y="37.45" font-family="Helvetica, Arial, sans-serif" font-size="4.875" text-anchor="start" font-weight="bold">2</text>
+<text x="22" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">SURF</text>
+<text x="32" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">RADIUS</text>
+<text x="66" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">CA Ø</text>
+<text x="80" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">POWER</text>
+<text x="94" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">IRREG</text>
+<text x="108" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">TILT</text>
+<text x="122" y="159.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start" font-weight="bold">SURF QUAL</text>
+<polyline points="21,161.4 143,161.4" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="22" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">1</text>
+<text x="32" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">141.243 ±10 CX</text>
+<text x="66" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">14.00</text>
+<text x="80" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">-</text>
+<text x="94" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">4 FR</text>
+<text x="108" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">6&apos;</text>
+<text x="122" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">60-40</text>
+<text x="22" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">2</text>
+<text x="32" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">16.700 ±0.04 CX</text>
+<text x="66" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">14.00</text>
+<text x="80" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">-</text>
+<text x="94" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">2.5 FR</text>
+<text x="108" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">3.6&apos;</text>
+<text x="122" y="170.9" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">60-40</text>
+<polygon points="20,174.9 142,174.9 142,154.9 20,154.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="152" y="20" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start" font-weight="bold">NOTES:</text>
+<text x="152" y="26" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">1.</text>
+<text x="158" y="26" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">INTERPRET DRAWING PER ASME Y14.18 AND ASME Y14.5. DIMENSIONS</text>
+<text x="158" y="29.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">IN MILLIMETERS.</text>
+<text x="152" y="34" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">2.</text>
+<text x="158" y="34" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">MATERIAL: N-SK16 (SCHOTT) OR EQUIVALENT, nd = 1.62041 ± 0.0010, vd =</text>
+<text x="158" y="37.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">60.32 ± 0.8%.</text>
+<text x="152" y="42" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">3.</text>
+<text x="158" y="42" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">POWER AND IRREGULARITY IN FRINGES AT 632.8 NM OVER THE CLEAR</text>
+<text x="158" y="45.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">APERTURE.</text>
+<text x="152" y="50" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">4.</text>
+<text x="158" y="50" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">SURFACE QUALITY 60-40 PER MIL-PRF-13830B OVER THE CLEAR</text>
+<text x="158" y="53.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">APERTURE.</text>
+<text x="152" y="58" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">5.</text>
+<text x="158" y="58" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">WEDGE: EDGE THICKNESS DIFFERENCE 0.0305 MAX (BEAM DEVIATION</text>
+<text x="158" y="61.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">4.34&apos; MAX). SURFACE TILT AS TABLE, REFERRED TO DATUM AXIS OF THE</text>
+<text x="158" y="65.2" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">OUTSIDE DIAMETER.</text>
+<text x="152" y="69.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">6.</text>
+<text x="158" y="69.6" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">PROTECTIVE BEVEL 0.3-0.6 FACE WIDTH X 45°.</text>
+<text x="152" y="74" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">7.</text>
+<text x="158" y="74" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">COATING: SURFACE 1 NONE; SURFACE 2 NONE.</text>
+<text x="152" y="78.4" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">8.</text>
+<text x="158" y="78.4" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">EDGE THICKNESS 0.52 REF.</text>
+<text x="152" y="82.8" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">9.</text>
+<text x="158" y="82.8" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">IN ITS MOUNT (ASSEMBLY DRAWING): DECENTER X ±0.04 MM,</text>
+<text x="158" y="86.4" font-family="Helvetica, Arial, sans-serif" font-size="3.064" text-anchor="start">DECENTER Y ±0.04 MM, TILT X ±0.12°, TILT Y ±0.12°.</text>
+<polygon points="149.4,205.9 269.4,205.9 269.4,199.9 149.4,199.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="204.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">DRAWN</text>
+<text x="171.4" y="204.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">2026-10-14</text>
+<polygon points="149.4,199.9 269.4,199.9 269.4,193.9 149.4,193.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="198.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">PROJECT</text>
+<text x="171.4" y="198.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">cooke_triplet</text>
+<polygon points="149.4,193.9 269.4,193.9 269.4,187.9 149.4,187.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="192.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">STANDARD</text>
+<text x="171.4" y="192.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">ASME Y14.18 / MIL-PRF-13830B</text>
+<polygon points="149.4,187.9 269.4,187.9 269.4,181.9 149.4,181.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="186.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">SCALE</text>
+<text x="171.4" y="186.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">5:1   UNITS mm   SHEET 1/1</text>
+<polygon points="149.4,181.9 269.4,181.9 269.4,175.9 149.4,175.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="180.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">MATERIAL</text>
+<text x="171.4" y="180.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">N-SK16</text>
+<polygon points="149.4,175.9 269.4,175.9 269.4,169.9 149.4,169.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="174.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">DRAWING</text>
+<text x="171.4" y="174.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start">OPT-03</text>
+<polygon points="149.4,169.9 269.4,169.9 269.4,163.9 149.4,163.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150.9" y="168.1" font-family="Helvetica, Arial, sans-serif" font-size="2.507" text-anchor="start">TITLE</text>
+<text x="171.4" y="168.3" font-family="Helvetica, Arial, sans-serif" font-size="3.482" text-anchor="start" font-weight="bold">LENS 6-7</text>
+<polyline points="169.4,205.9 169.4,163.9" fill="none" stroke="black" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

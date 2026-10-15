@@ -1,0 +1,4 @@
+$ tol drawings aspheric_singlet.zmx --tolerances tolerances/aspheric_singlet_edited.tol --out drawings/aspheric_singlet/iso
+
+OPT-01  LENS 1-2               N-BK7      CT 4.000  Ø13.00  edge 3.07
+1 element drawings (Iso10110) in drawings/aspheric_singlet/iso: one .pdf, .dxf and .svg each, and drawings.pdf with all

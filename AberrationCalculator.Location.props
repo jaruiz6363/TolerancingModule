@@ -1,0 +1,9 @@
+<Project>
+  <!-- One AberrationCalculator for everything: this repository's subtree. WavefrontErrorCalculator
+       carries its own copy in external/AberrationCalculator, and its Directory.Build.props finds
+       this file above it and builds against this one instead. -->
+  <PropertyGroup>
+    <AberrationCalculatorDir>$(MSBuildThisFileDirectory)external/AberrationCalculator/</AberrationCalculatorDir>
+    <WavefrontErrorCalculatorDir>$(MSBuildThisFileDirectory)external/WavefrontErrorCalculator/</WavefrontErrorCalculatorDir>
+  </PropertyGroup>
+</Project>

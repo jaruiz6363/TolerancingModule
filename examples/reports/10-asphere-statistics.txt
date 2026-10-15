@@ -1,0 +1,40 @@
+$ tol statistics aspheric_singlet.zmx --tolerances tolerances/aspheric_singlet_edited.tol --limit 0.17 --montecarlo 1000 --seed 5
+
+aspheric_singlet.zmx: 19 tolerances, from aspheric_singlet_edited.tol, fringes at 0.6328 µm
+criterion   RMS wavefront (waves, polychromatic)
+compensators focus (surface 2, back focus)
+errors     uniform, x and y independent; cross terms wavefront
+
+largest contributions to the mean of W² and its variance
+tolerance           mean of W²     σ² of W²
+TIRR 1              5.903E-004   2.231E-006
+TIRR 2              4.600E-004   2.166E-006
+TFRN 2              1.664E-004   5.393E-007
+TSTX 2              3.157E-004   7.971E-008
+TSTY 2              2.804E-004   6.290E-008
+TRSI 1              1.337E-004   1.412E-007
+TSTX 1              2.588E-004   5.360E-008
+TSTY 1              2.510E-004   5.042E-008
+TETX 1-2            2.476E-004   4.903E-008
+TFRN 1              7.522E-006   1.708E-007
+TTHI 1              1.120E-006   7.491E-009
+TETY 1-2            4.451E-005   1.585E-009
+
+error budget by kind: mean and σ added to W², and each node alone as √(mean + 2σ) waves
+All tolerances                      2.834E-003  2.776E-003   0.09158
+  Surface form                      1.359E-003  2.291E-003   0.07708
+  Surface centering (wedge)         1.182E-003  4.990E-004   0.04669
+  Thickness and air spaces          1.120E-006  8.655E-005   0.01320
+  Glass                             5.522E-007  5.788E-005   0.01078
+  Element alignment                 2.918E-004  2.250E-004   0.02723
+  Interactions (cross terms)        0.000E+000  1.465E-003   0.05414
+  Biases                            0.000E+000  0.000E+000   0.00000
+
+Koch        nominal 0.13662   √mean W² 0.14662   σ(W²) 2.776E-003  skew 0.89  (cross terms 28 % of the variance)
+            mean+2σ 0.16447 (normal)   84.1 % 0.15559   97.7 % 0.16873 (sampled)   yield at 0.17: 98.2 %
+            focus (surface 2) moves +0.0087 ± 0.6335 mm: ±1.2758 mm for 95.4 %, ±1.9093 mm for 99.7 %
+model check 12 lenses traced against the quadratic model: within 0.4 % RMS, 0.8 % at worst
+Monte Carlo 1000 lenses, seed 5: √mean W² 0.14675   σ(W²) 2.872E-003  skew 0.84   mean W² 2.1536E-002 ± 9.1E-005 against Koch 2.1498E-002
+            median 0.14492   84.1 % 0.15590   97.7 % 0.16878   yield at 0.17: 98.3 %
+            focus (surface 2) moved -1.4360 to +1.6290 mm
+17.1 s

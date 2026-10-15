@@ -1,0 +1,70 @@
+$ tol allocate cooke_triplet.zmx --limit 2.2 --also efl:0.25 --also boresight:0.2 --method cost --write-tolerances tolerances/cooke_triplet_three_criteria.tol
+
+cooke_triplet.zmx: 48 tolerances, Commercial grade to start, fringes at 0.6328 µm
+criterion   RMS wavefront (waves, polychromatic)
+compensators focus (surface 7, back focus)
+also        EFL change (mm) within 0.25 mm; nominal 50.269336 mm
+also        boresight (degrees, line of sight) within 0.2 deg; nominal 0.000000, 0.000000 deg
+errors     uniform, x and y independent; cross terms wavefront
+goal        97.7 % of lenses within 2.2 waves (sampled spread) and within 0.25 mm EFL change (mm) and within 0.2 deg boresight (degrees, line of sight)   method CostOptimal   refits 1
+
+type  surf          min          max      tightest       loosest   mean of W²     σ² of W²
+TFRN     1         -2.5          2.5             1            50   6.043E-006   1.809E-005
+TIRR     1           -3            3          0.25            10   3.618E-002   2.385E-001
+TST*     1        -0.04         0.04       0.00573        0.1612   1.136E-003   5.213E-007
+TFRN     2         -2.5          2.5             1            50   1.014E-004   2.721E-004
+TIRR     2           -3            3          0.25            10   2.731E-002   1.788E-001
+TST*     2        -0.04         0.04       0.00573        0.1612   2.589E-003   2.740E-006
+TFRN     3         -1.5          1.5             1            50   9.523E-005   5.779E-004
+TIRR     3           -4            4          0.25            10   2.067E-002   1.071E-001
+TST*     3        -0.04         0.04       0.00573        0.1613   7.709E-003   2.443E-005
+TFRN     4         -1.5          1.5             1            50   9.366E-006   3.725E-005
+TIRR     4           -5            5          0.25            10   2.335E-002   1.089E-001
+TST*     4        -0.04         0.04       0.00573        0.1613   3.075E-003   3.796E-006
+TFRN     6           -2            2             1            50   3.562E-006   1.020E-006
+TIRR     6          -10           10          0.25            10   1.590E-002   5.075E-002 loosest
+TST*     6        -0.04         0.04       0.00573        0.1612   1.048E-003   4.392E-007
+TFRN     7         -2.5          2.5             1            50   2.585E-005   1.575E-004
+TIRR     7           -6            6          0.25            10   1.529E-002   8.332E-002
+TST*     7        -0.04         0.04       0.00573        0.1612   5.937E-003   1.441E-005
+TTHI     1        -0.15         0.15          0.05           0.2   6.288E-004   7.314E-004
+TTHI     2        -0.08         0.08          0.05           0.2   3.148E-003   9.033E-003
+TTHI     3        -0.15         0.15          0.05           0.2   9.996E-003   3.432E-002
+TTHI     4        -0.05         0.05          0.05           0.2   1.963E-003   1.018E-002 tightest
+TTHI     5        -0.05         0.05          0.05           0.2   1.100E-003   6.379E-003 tightest
+TTHI     6        -0.06         0.06          0.05           0.2   6.927E-004   3.337E-003
+TIND     1      -0.0003       0.0003        0.0002         0.001   7.159E-006   9.963E-008
+TABB     1      -0.4826       0.4826         0.181        0.4826   2.357E-004   1.796E-004 loosest
+TIND     3      -0.0003       0.0003        0.0002         0.001   9.388E-006   2.903E-005
+TABB     3      -0.2909       0.2909        0.1091        0.2909   2.162E-004   5.604E-005 loosest
+TIND     6      -0.0003       0.0003        0.0002         0.001   1.722E-005   9.169E-005
+TABB     6      -0.4826       0.4826         0.181        0.4826   3.702E-005   3.246E-005 loosest
+TED*   1-2        -0.03         0.03         0.025           0.2   5.650E-003   1.280E-005
+TET*   1-2         -0.2          0.2          0.02           0.2   5.452E-002   1.381E-003 loosest
+TED*   3-4       -0.025        0.025         0.025           0.2   5.232E-002   1.098E-003 tightest
+TET*   3-4         -0.2          0.2          0.02           0.2   1.315E-001   7.938E-003 loosest
+TED*   6-7        -0.03         0.03         0.025           0.2   4.273E-002   7.449E-004
+TET*   6-7         -0.2          0.2          0.02           0.2   4.403E-002   8.143E-004 loosest
+* an x-y pair, such as TST* for TSTX and TSTY: one error in some direction, given one value; its mean and σ² are the two together
+cost (Adams, Σ tightest/t)  14.46
+
+error budget by kind: mean and σ added to W², and each node alone as √(mean + 2σ) waves
+All tolerances                      5.092E-001  9.649E-001   1.56174
+  Surface form                      1.389E-001  8.766E-001   1.37557
+  Surface centering (wedge)         2.149E-002  6.807E-003   0.18737
+  Thickness and air spaces          1.753E-002  2.529E-001   0.72347
+  Glass                             5.226E-004  1.972E-002   0.19991
+  Element alignment                 3.307E-001  1.095E-001   0.74142
+  Interactions (cross terms)        0.000E+000  2.936E-001   0.76623
+  Biases                            0.000E+000  0.000E+000   0.00000
+
+Koch        nominal 1.35867   √mean W² 1.53467   σ(W²) 9.649E-001  skew 0.65  (cross terms 9 % of the variance)
+            mean+2σ 2.07003 (normal)   84.1 % 1.82481   97.7 % 2.13829 (sampled)   yield at 2.2: 98.6 %
+also        EFL change (mm): √mean W² 0.10430   97.7 % 0.23218   yield at 0.25: 98.6 %
+also        boresight (degrees, line of sight): √mean W² 0.10012   97.7 % 0.18768   yield at 0.2: 98.8 %
+            within every limit at once: 96.1 % of lenses (each yield above is of one criterion alone)
+            focus (surface 7) moves +0.0001 ± 0.2464 mm: ±0.4930 mm for 95.4 %, ±0.7394 mm for 99.7 %
+model check 12 lenses traced against the quadratic model (RMS wavefront (waves, polychromatic)): within 0.4 % RMS, 1.2 % at worst
+model check 12 lenses traced against the quadratic model (EFL change (mm)): within 0.7 % RMS, 1.5 % at worst of the spread
+model check 12 lenses traced against the quadratic model (boresight (degrees, line of sight)): within 0.6 % RMS, 1.2 % at worst of the spread
+15.2 s

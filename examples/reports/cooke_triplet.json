@@ -1,0 +1,670 @@
+{
+  "lens": "cooke_triplet.zmx",
+  "criterion": "RMS wavefront (waves, polychromatic)",
+  "compensatorSurface": 7,
+  "statistics": "uniform, x and y independent",
+  "method": "CostOptimal",
+  "tolerances": [
+    {
+      "code": "TFRN",
+      "surfaces": "1",
+      "min": -30,
+      "max": 30,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0008701253463461547,
+      "varianceW2": 0.0026039128876213092
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "1",
+      "min": -1,
+      "max": 1,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.004020075198601221,
+      "varianceW2": 0.0263900042265903
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "1",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.003889905179798444,
+      "varianceW2": 1.2105089846258214E-05
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "1",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.003213034457735094,
+      "varianceW2": 8.258872341274441E-06
+    },
+    {
+      "code": "TFRN",
+      "surfaces": "2",
+      "min": -12,
+      "max": 12,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0023369182390675647,
+      "varianceW2": 0.006285181480182209
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "2",
+      "min": -1.2,
+      "max": 1.2,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.004368783643125761,
+      "varianceW2": 0.028532356949463298
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "2",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.0059479660350128345,
+      "varianceW2": 2.8302639962933034E-05
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "2",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.00440892858895899,
+      "varianceW2": 1.5550921042031924E-05
+    },
+    {
+      "code": "TFRN",
+      "surfaces": "3",
+      "min": -8,
+      "max": 8,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0027086785906689963,
+      "varianceW2": 0.01644407093493635
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "3",
+      "min": -1.5,
+      "max": 1.5,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.002907132642447907,
+      "varianceW2": 0.015023831251985562
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "3",
+      "min": -0.05,
+      "max": 0.05,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16127988172527283,
+      "meanW2": 0.007022333087570535,
+      "varianceW2": 3.945052959423036E-05
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "3",
+      "min": -0.05,
+      "max": 0.05,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16127988172527283,
+      "meanW2": 0.005023462939145351,
+      "varianceW2": 2.0188143920773486E-05
+    },
+    {
+      "code": "TFRN",
+      "surfaces": "4",
+      "min": -20,
+      "max": 20,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0016650272450621233,
+      "varianceW2": 0.0066261240701341656
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "4",
+      "min": -2,
+      "max": 2,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.003736734160478779,
+      "varianceW2": 0.01736528354085055
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "4",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16127988172527283,
+      "meanW2": 0.006519336434388401,
+      "varianceW2": 3.4001398035795244E-05
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "4",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16127988172527283,
+      "meanW2": 0.005781503966729681,
+      "varianceW2": 2.6740630493848826E-05
+    },
+    {
+      "code": "TFRN",
+      "surfaces": "6",
+      "min": -50,
+      "max": 50,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0022263216783408772,
+      "varianceW2": 0.0006416885828608424
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "6",
+      "min": -4,
+      "max": 4,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.002544052981140317,
+      "varianceW2": 0.008092725619086442
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "6",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.0033190933392845956,
+      "varianceW2": 8.813104475906698E-06
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "6",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.0032297245022981555,
+      "varianceW2": 8.344896288596056E-06
+    },
+    {
+      "code": "TFRN",
+      "surfaces": "7",
+      "min": -15,
+      "max": 15,
+      "tightest": 1,
+      "loosest": 50,
+      "meanW2": 0.0009306215683198759,
+      "varianceW2": 0.005671229423067376
+    },
+    {
+      "code": "TIRR",
+      "surfaces": "7",
+      "min": -2.5,
+      "max": 2.5,
+      "tightest": 0.25,
+      "loosest": 10,
+      "meanW2": 0.002654805907005361,
+      "varianceW2": 0.014439238971120445
+    },
+    {
+      "code": "TSTX",
+      "surfaces": "7",
+      "min": -0.06,
+      "max": 0.06,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.007663377235638589,
+      "varianceW2": 4.6981880524563056E-05
+    },
+    {
+      "code": "TSTY",
+      "surfaces": "7",
+      "min": -0.06,
+      "max": 0.06,
+      "tightest": 0.005729577951308233,
+      "loosest": 0.16118374240968422,
+      "meanW2": 0.005694978561864553,
+      "varianceW2": 2.594622465607751E-05
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "1",
+      "min": -0.2,
+      "max": 0.2,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.0011180605227244511,
+      "varianceW2": 0.0013018185546760613
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "2",
+      "min": -0.15,
+      "max": 0.15,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.011086578772217902,
+      "varianceW2": 0.03210471929279051
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "3",
+      "min": -0.15,
+      "max": 0.15,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.00999573651235231,
+      "varianceW2": 0.03431756441688911
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "4",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.011311263012777769,
+      "varianceW2": 0.05885177064144807
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "5",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.006335353530430348,
+      "varianceW2": 0.03672937918675114
+    },
+    {
+      "code": "TTHI",
+      "surfaces": "6",
+      "min": -0.15,
+      "max": 0.15,
+      "tightest": 0.05,
+      "loosest": 0.2,
+      "meanW2": 0.0043295138047778625,
+      "varianceW2": 0.020864672513827384
+    },
+    {
+      "code": "TIND",
+      "surfaces": "1",
+      "min": -0.001,
+      "max": 0.001,
+      "tightest": 0.0002,
+      "loosest": 0.001,
+      "meanW2": 7.954234178993622E-05,
+      "varianceW2": 1.1101464429125112E-06
+    },
+    {
+      "code": "TABB",
+      "surfaces": "1",
+      "min": -0.48258919325338534,
+      "max": 0.48258919325338534,
+      "tightest": 0.18097094747001946,
+      "loosest": 0.48258919325338534,
+      "meanW2": 0.0002356848305307875,
+      "varianceW2": 0.00017958122644765848
+    },
+    {
+      "code": "TIND",
+      "surfaces": "3",
+      "min": -0.001,
+      "max": 0.001,
+      "tightest": 0.0002,
+      "loosest": 0.001,
+      "meanW2": 0.00010431459542992155,
+      "varianceW2": 0.00032256353245975
+    },
+    {
+      "code": "TABB",
+      "surfaces": "3",
+      "min": -0.29093193002447537,
+      "max": 0.29093193002447537,
+      "tightest": 0.10909947375917824,
+      "loosest": 0.29093193002447537,
+      "meanW2": 0.00021617130218191475,
+      "varianceW2": 5.6041618721615365E-05
+    },
+    {
+      "code": "TIND",
+      "surfaces": "6",
+      "min": -0.001,
+      "max": 0.001,
+      "tightest": 0.0002,
+      "loosest": 0.001,
+      "meanW2": 0.00019138817031979136,
+      "varianceW2": 0.0010188493339501042
+    },
+    {
+      "code": "TABB",
+      "surfaces": "6",
+      "min": -0.48258919325338534,
+      "max": 0.48258919325338534,
+      "tightest": 0.18097094747001946,
+      "loosest": 0.48258919325338534,
+      "meanW2": 3.701916653712577E-05,
+      "varianceW2": 3.245691172064875E-05
+    },
+    {
+      "code": "TEDX",
+      "surfaces": "1-2",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.019195628756302246,
+      "varianceW2": 0.00029477773067982207
+    },
+    {
+      "code": "TEDY",
+      "surfaces": "1-2",
+      "min": -0.08,
+      "max": 0.08,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.020986662113654075,
+      "varianceW2": 0.0003523519893381466
+    },
+    {
+      "code": "TETX",
+      "surfaces": "1-2",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.013751712666382417,
+      "varianceW2": 0.0001512876810069943
+    },
+    {
+      "code": "TETY",
+      "surfaces": "1-2",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.005874177180524852,
+      "varianceW2": 2.7604766038559156E-05
+    },
+    {
+      "code": "TEDX",
+      "surfaces": "3-4",
+      "min": -0.03,
+      "max": 0.03,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.03553984854879765,
+      "varianceW2": 0.0010104646678971807
+    },
+    {
+      "code": "TEDY",
+      "surfaces": "3-4",
+      "min": -0.03,
+      "max": 0.03,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.03979771662349391,
+      "varianceW2": 0.0012670865987551407
+    },
+    {
+      "code": "TETX",
+      "surfaces": "3-4",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.022755241274430738,
+      "varianceW2": 0.0004142408043660451
+    },
+    {
+      "code": "TETY",
+      "surfaces": "3-4",
+      "min": -0.1,
+      "max": 0.1,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.010113058545322925,
+      "varianceW2": 8.181916251290325E-05
+    },
+    {
+      "code": "TEDX",
+      "surfaces": "6-7",
+      "min": -0.04,
+      "max": 0.04,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.03262760142537072,
+      "varianceW2": 0.0008516482998182826
+    },
+    {
+      "code": "TEDY",
+      "surfaces": "6-7",
+      "min": -0.04,
+      "max": 0.04,
+      "tightest": 0.025,
+      "loosest": 0.2,
+      "meanW2": 0.04333996232232511,
+      "varianceW2": 0.0015026818672804476
+    },
+    {
+      "code": "TETX",
+      "surfaces": "6-7",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.009702413459613644,
+      "varianceW2": 7.53094615530337E-05
+    },
+    {
+      "code": "TETY",
+      "surfaces": "6-7",
+      "min": -0.12,
+      "max": 0.12,
+      "tightest": 0.02,
+      "loosest": 0.2,
+      "meanW2": 0.006146126237972133,
+      "varianceW2": 3.0219894186471622E-05
+    }
+  ],
+  "prediction": {
+    "shape": "sampled",
+    "nominal": 1.3586708869271078,
+    "rootMeanSquare": 1.497845211037704,
+    "sigmaW2": 0.6318524301268668,
+    "median": 1.4809998725123488,
+    "level841": 1.6976020918874781,
+    "level977": 1.910137491487596,
+    "limit": 2,
+    "yield": 0.9924,
+    "crossVariance": 0.05900714088858801,
+    "biasShift": 0
+  },
+  "compensator": {
+    "mean": 0.008743247468334672,
+    "sigma": 0.7675962623594043,
+    "needed954": 1.5439376188556995,
+    "needed997": 2.311514381440401
+  },
+  "byKind": {
+    "name": "All tolerances",
+    "meanW2": 0.39755369724529066,
+    "sigmaW2": 0.6318524301268669,
+    "equivalent": 1.2888981951647789,
+    "children": [
+      {
+        "name": "Surface form",
+        "meanW2": 0.03096927720060494,
+        "sigmaW2": 0.38485795813247625,
+        "equivalent": 0.894810143810159,
+        "children": []
+      },
+      {
+        "name": "Surface centering (wedge)",
+        "meanW2": 0.06171364432842523,
+        "sigmaW2": 0.01657360344591027,
+        "equivalent": 0.30799488830213684,
+        "children": []
+      },
+      {
+        "name": "Thickness and air spaces",
+        "meanW2": 0.04417650615528064,
+        "sigmaW2": 0.4291502354728263,
+        "equivalent": 0.9499878826074222,
+        "children": []
+      },
+      {
+        "name": "Glass",
+        "meanW2": 0.0008641204067894772,
+        "sigmaW2": 0.04013231577846822,
+        "equivalent": 0.2848310937445663,
+        "children": []
+      },
+      {
+        "name": "Element alignment",
+        "meanW2": 0.2598301491541904,
+        "sigmaW2": 0.07784274483491077,
+        "equivalent": 0.6446050254411704,
+        "children": []
+      },
+      {
+        "name": "Interactions (cross terms)",
+        "meanW2": 0,
+        "sigmaW2": 0.24291385487161496,
+        "equivalent": 0.6970134214943281,
+        "children": []
+      },
+      {
+        "name": "Biases",
+        "meanW2": 0,
+        "sigmaW2": 0,
+        "equivalent": 0,
+        "children": []
+      }
+    ]
+  },
+  "byElement": {
+    "name": "All tolerances",
+    "meanW2": 0.3975536972452907,
+    "sigmaW2": 0.6318524301268669,
+    "equivalent": 1.2888981951647789,
+    "children": [
+      {
+        "name": "Element 1-2",
+        "meanW2": 0.09029720510055483,
+        "sigmaW2": 0.2572629105830838,
+        "equivalent": 0.7777036879600884,
+        "children": [
+          {
+            "name": "Lens maker",
+            "meanW2": 0.030489024383691242,
+            "sigmaW2": 0.25565246526215285,
+            "equivalent": 0.73606654244572,
+            "children": []
+          },
+          {
+            "name": "Mount",
+            "meanW2": 0.0598081807168636,
+            "sigmaW2": 0.028740601369204543,
+            "equivalent": 0.34247537642182785,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Element 3-4",
+        "meanW2": 0.15388629646850113,
+        "sigmaW2": 0.30504011424983607,
+        "equivalent": 0.8740517862050128,
+        "children": [
+          {
+            "name": "Lens maker",
+            "meanW2": 0.04568043147645592,
+            "sigmaW2": 0.30045941500978424,
+            "equivalent": 0.804113960515563,
+            "children": []
+          },
+          {
+            "name": "Mount",
+            "meanW2": 0.10820586499204522,
+            "sigmaW2": 0.05266508552666814,
+            "equivalent": 0.4620995953746135,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Element 6-7",
+        "meanW2": 0.12463700036080871,
+        "sigmaW2": 0.23089133154888386,
+        "equivalent": 0.7657804277066478,
+        "children": [
+          {
+            "name": "Lens maker",
+            "meanW2": 0.03282089691552711,
+            "sigmaW2": 0.22550154647269802,
+            "equivalent": 0.6955745753410796,
+            "children": []
+          },
+          {
+            "name": "Mount",
+            "meanW2": 0.0918161034452816,
+            "sigmaW2": 0.04959697090385899,
+            "equivalent": 0.43704696000887544,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Air spaces",
+        "meanW2": 0.028733195315426018,
+        "sigmaW2": 0.3573315954697957,
+        "equivalent": 0.8622043761516277,
+        "children": []
+      },
+      {
+        "name": "Interactions (cross terms)",
+        "meanW2": 0,
+        "sigmaW2": 0.24291385487161496,
+        "equivalent": 0.6970134214943281,
+        "children": []
+      },
+      {
+        "name": "Biases",
+        "meanW2": 0,
+        "sigmaW2": 0,
+        "equivalent": 0,
+        "children": []
+      }
+    ]
+  },
+  "feasible": true,
+  "cost": 7.871248866023507,
+  "modelCheck": {
+    "lenses": 12,
+    "rmsError": 0.0047192105640760165,
+    "maxError": 0.013553630499051247,
+    "untraceable": 0,
+    "passes": true
+  },
+  "units": "waves"
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Tolerancing.Drawings</RootNamespace>
+    <AssemblyName>Tolerancing.Drawings</AssemblyName>
+  </PropertyGroup>
+
+  <!-- Element drawings for vendors, from a lens and its tolerance budget. PDF, DXF and SVG are
+       written here directly, with no library: the drawings are lines and text, and the PDF uses
+       only Helvetica, which every reader has, so nothing depends on fonts installed. -->
+  <ItemGroup>
+    <ProjectReference Include="../Tolerancing.Core/Tolerancing.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tolerancing.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+<text x="74" y="24" font-size="15" font-weight="bold" fill="#333333">focus (surface 7) moves, 1000 lenses</text>
+<line x1="74" y1="376" x2="736" y2="376" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="380" font-size="11" text-anchor="end" fill="#333333">0</text>
+<line x1="74" y1="324.17" x2="736" y2="324.17" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="328.17" font-size="11" text-anchor="end" fill="#333333">20</text>
+<line x1="74" y1="272.34" x2="736" y2="272.34" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="276.34" font-size="11" text-anchor="end" fill="#333333">40</text>
+<line x1="74" y1="220.51" x2="736" y2="220.51" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="224.51" font-size="11" text-anchor="end" fill="#333333">60</text>
+<line x1="74" y1="168.68" x2="736" y2="168.68" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="172.68" font-size="11" text-anchor="end" fill="#333333">80</text>
+<line x1="74" y1="116.86" x2="736" y2="116.86" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="120.86" font-size="11" text-anchor="end" fill="#333333">100</text>
+<line x1="74" y1="65.03" x2="736" y2="65.03" stroke="#e4e4e4" stroke-width="1"/>
+<text x="68" y="69.03" font-size="11" text-anchor="end" fill="#333333">120</text>
+<line x1="108.93" y1="376" x2="108.93" y2="381" stroke="#333333" stroke-width="1"/>
+<text x="108.93" y="394" font-size="11" text-anchor="middle" fill="#333333">-2</text>
+<line x1="257.83" y1="376" x2="257.83" y2="381" stroke="#333333" stroke-width="1"/>
+<text x="257.83" y="394" font-size="11" text-anchor="middle" fill="#333333">-1</text>
+<line x1="406.73" y1="376" x2="406.73" y2="381" stroke="#333333" stroke-width="1"/>
+<text x="406.73" y="394" font-size="11" text-anchor="middle" fill="#333333">0</text>
+<line x1="555.63" y1="376" x2="555.63" y2="381" stroke="#333333" stroke-width="1"/>
+<text x="555.63" y="394" font-size="11" text-anchor="middle" fill="#333333">1</text>
+<line x1="704.52" y1="376" x2="704.52" y2="381" stroke="#333333" stroke-width="1"/>
+<text x="704.52" y="394" font-size="11" text-anchor="middle" fill="#333333">2</text>
+<rect x="74" y="56" width="662" height="320" fill="none" stroke="#333333" stroke-width="1"/>
+<text x="405" y="418" font-size="12" text-anchor="middle" fill="#333333">focus (surface 7) (mm)</text>
+<text transform="translate(18 216) rotate(-90)" font-size="12" text-anchor="middle" fill="#333333">lenses</text>
+<rect x="74" y="373.41" width="33.1" height="2.59" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="107.1" y="373.41" width="33.1" height="2.59" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="140.2" y="339.72" width="33.1" height="36.28" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="173.3" y="342.31" width="33.1" height="33.69" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="206.4" y="277.53" width="33.1" height="98.47" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="239.5" y="238.65" width="33.1" height="137.35" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="272.6" y="197.19" width="33.1" height="178.81" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="305.7" y="137.59" width="33.1" height="238.41" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="338.8" y="85.76" width="33.1" height="290.24" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="371.9" y="106.49" width="33.1" height="269.51" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="405" y="90.94" width="33.1" height="285.06" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="438.1" y="111.67" width="33.1" height="264.33" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="471.2" y="137.59" width="33.1" height="238.41" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="504.3" y="233.47" width="33.1" height="142.53" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="537.4" y="207.56" width="33.1" height="168.44" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="570.5" y="295.67" width="33.1" height="80.33" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="603.6" y="313.81" width="33.1" height="62.19" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="636.7" y="331.95" width="33.1" height="44.05" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="669.8" y="363.04" width="33.1" height="12.96" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<rect x="702.9" y="370.82" width="33.1" height="5.18" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<polyline points="90.55,369.53 123.65,362.2 156.75,348.93 189.85,327.14 222.95,294.85 256.05,251.99 289.15,201.64 322.25,150.43 355.35,107.51 388.45,81.95 421.55,79.7 454.65,101.29 487.75,141.67 520.85,192.08 553.95,243.18 587.05,287.75 620.15,322.05 653.25,345.65 686.35,360.3 719.45,368.52" fill="none" stroke="#c8102e" stroke-width="2"/>
+<line x1="176.84" y1="56" x2="176.84" y2="376" stroke="#7b2cbf" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="636.62" y1="56" x2="636.62" y2="376" stroke="#7b2cbf" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="496.34" y="64" width="231.66" height="56" fill="#ffffff" fill-opacity="0.9" stroke="#cccccc" stroke-width="1"/>
+<rect x="504.34" y="71" width="20" height="10" fill="#9ec5e8" stroke="#5b8fc7" stroke-width="0.6"/>
+<text x="530.34" y="80" font-size="11" fill="#333333">1000 traced lenses</text>
+<line x1="504.34" y1="92" x2="524.34" y2="92" stroke="#c8102e" stroke-width="2"/>
+<text x="530.34" y="96" font-size="11" fill="#333333">predicted (normal, Koch&#39;s mean and σ)</text>
+<line x1="504.34" y1="108" x2="524.34" y2="108" stroke="#7b2cbf" stroke-width="2"/>
+<text x="530.34" y="112" font-size="11" fill="#333333">predicted 95.4 % range &#177;1.544</text>
+</svg>

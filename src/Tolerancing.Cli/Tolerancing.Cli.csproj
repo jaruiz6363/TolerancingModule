@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Tolerancing.Cli</RootNamespace>
+    <AssemblyName>tol</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tolerancing.Core\Tolerancing.Core.csproj" />
+    <ProjectReference Include="..\Tolerancing.Drawings\Tolerancing.Drawings.csproj" />
+  </ItemGroup>
+
+  <!-- SkiaSharp (MIT) paints the Monte Carlo charts as PNG; the libraries stay free of it. Its native
+       library for Windows and macOS comes with it, Linux's with NativeAssets.Linux. -->
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.88.8" />
+  </ItemGroup>
+
+  <!-- AberrationCalculator's glass catalogs, for reading lenses. -->
+  <ItemGroup>
+    <None Include="$(AberrationCalculatorDir)catalogs/**/*" CopyToOutputDirectory="PreserveNewest" LinkBase="catalogs" />
+  </ItemGroup>
+</Project>

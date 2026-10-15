@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Tolerancing.Core</RootNamespace>
+    <AssemblyName>Tolerancing.Core</AssemblyName>
+  </PropertyGroup>
+
+  <!-- The optics are AberrationCalculator's (lens model, readers, glass, paraxial and real ray
+       trace) and WavefrontErrorCalculator's (wavefront error, Zernike fits). -->
+  <ItemGroup>
+    <ProjectReference Include="$(AberrationCalculatorDir)src/AberrationCalculator.Core/AberrationCalculator.Core.csproj" />
+    <ProjectReference Include="$(AberrationCalculatorDir)src/AberrationCalculator.IO/AberrationCalculator.IO.csproj" />
+    <ProjectReference Include="$(WavefrontErrorCalculatorDir)src/WavefrontErrorCalculator.Core/WavefrontErrorCalculator.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tolerancing.Tests" />
+  </ItemGroup>
+</Project>

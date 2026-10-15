@@ -1,0 +1,8 @@
+$ tol nominal cooke_triplet.zmx
+
+cooke_triplet.zmx: 9 surfaces
+EFL 50.2693   BFL 43.6538   F/# 5.027   λ 0.5876 µm
+field        RMS (waves)   P-V (waves)   Strehl   vignetted
+       0       0.34712       1.19847        —           0
+      10       1.40171       7.50315        —           0
+      14       1.71712       8.91208        —           0

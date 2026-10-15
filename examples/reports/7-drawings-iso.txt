@@ -1,0 +1,9 @@
+$ tol drawings cooke_triplet.zmx --tolerances tolerances/cooke_triplet.tol --out drawings/iso
+
+OPT-01  LENS 1-2               N-SK16     CT 2.500  Ø15.00  edge 0.96
+      warning: edge thickness 0.96 mm: thin to make
+OPT-02  LENS 3-4               F2         CT 1.000  Ø11.00  edge 2.55
+OPT-03  LENS 6-7               N-SK16     CT 2.500  Ø15.00  edge 0.52
+      warning: edge thickness 0.52 mm: thin to make
+      warning: bevels up to 0.6 mm wide would take the whole 0.52 mm edge
+3 element drawings (Iso10110) in drawings/iso: one .pdf, .dxf and .svg each, and drawings.pdf with all
