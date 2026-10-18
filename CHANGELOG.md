@@ -2,6 +2,12 @@
 
 Everything here is unreleased. The figures quoted when each step was made have moved as later work changed the defaults, so this file records what changed; [docs/verification.md](docs/verification.md) has the current figures.
 
+## WavefrontErrorCalculator 14b8cdce (2026-10-18)
+
+- WavefrontErrorCalculator moves from d6c4c566 to 14b8cdce, its PR #7. AberrationCalculator stays at 11876ee, the copy WavefrontErrorCalculator is tested with.
+- **What it adds:** the diffraction MTF over a lens's wavelengths (`DiffractionMtf`), from the autocorrelation of the pupil function, and the Debye integral it rests on, in its method.md §11.
+- **The module's results are unchanged.** It doesn't use the diffraction MTF yet: the MTF criterion is still Kidger's geometric MTF. WavefrontErrorCalculator's changes are new code and a refactor inside `Diffraction`, which the module doesn't call. The RMS wavefront, the Zernike fits and the geometric MTF it uses are untouched.
+
 ## Visual Studio builds a plain clone (2026-10-15)
 
 - A fresh clone failed to build in Visual Studio, though `dotnet build` and CI passed. `AberrationCalculator.Core.Series` was missing from the solution, and Visual Studio does not build a referenced project that is not in it. And the root `Directory.Build.props` set `TargetFramework` for every project, AberrationCalculator's multi-targeted ones included, which made Visual Studio refuse their netstandard2.0 build. The project is in the solution now, and our five projects name their framework themselves.
