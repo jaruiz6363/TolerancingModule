@@ -2,6 +2,12 @@
 
 Everything here is unreleased. The figures quoted when each step was made have moved as later work changed the defaults, so this file records what changed; [docs/verification.md](docs/verification.md) has the current figures.
 
+## AberrationCalculator 04ae89a, WavefrontErrorCalculator 557ea496 (2026-10-19)
+
+- AberrationCalculator moves from 11876ee to 04ae89a, its PR #8, and WavefrontErrorCalculator from 14b8cdce to 557ea496, its PR #8, which carries the same AberrationCalculator.
+- **What changes:** `catalogs/Glass/MISC.AGF` only. Fifteen materials (CaF₂, sapphire, MgF₂, ZnSe, silicon, germanium, Infrasil, water and the plastics) had held dn/dT where SCHOTT's thermal model needs D0 = (2n/(n²−1))·dn/dT. Their thermal constants are now fitted to published measurements, and silicon and germanium carry their expansion coefficients.
+- **The module's results are unchanged.** It traces at the catalogs' reference temperature, where the indices are the same as before; only these materials' change with temperature differs.
+
 ## WavefrontErrorCalculator 14b8cdce (2026-10-18)
 
 - WavefrontErrorCalculator moves from d6c4c566 to 14b8cdce, its PR #7. AberrationCalculator stays at 11876ee, the copy WavefrontErrorCalculator is tested with.
