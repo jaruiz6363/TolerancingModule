@@ -2,6 +2,12 @@
 
 Everything here is unreleased. The figures quoted when each step was made have moved as later work changed the defaults, so this file records what changed; [docs/verification.md](docs/verification.md) has the current figures.
 
+## AberrationCalculator 536e74f, WavefrontErrorCalculator 0602dd7d (2026-10-19)
+
+- AberrationCalculator moves from 04ae89a to 536e74f, its PR #9, and WavefrontErrorCalculator from 557ea496 to 0602dd7d, its PR #9, which carries the same AberrationCalculator.
+- **What changes:** AberrationCalculator's Optiland lens writer only. The `README.txt` it writes beside a lens's glasses said they were installed on this machine even when they were not; it now says where they were installed, or that they were not.
+- **The module's results are unchanged.** It writes no lens files.
+
 ## AberrationCalculator 04ae89a, WavefrontErrorCalculator 557ea496 (2026-10-19)
 
 - AberrationCalculator moves from 11876ee to 04ae89a, its PR #8, and WavefrontErrorCalculator from 14b8cdce to 557ea496, its PR #8, which carries the same AberrationCalculator.
