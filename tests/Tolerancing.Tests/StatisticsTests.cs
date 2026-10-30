@@ -758,15 +758,16 @@ public class LensStatisticsTests
     /// Monte Carlo lenses computed again in OpticStudio one by one, for agreement: the triplet allocated to 2 waves at
     /// least cost, without its glass tolerances (a .zmx names glass, so a changed index cannot be
     /// written), seed 1. Trials 0 and 3 were exported refocused with <c>--export-trials</c> and
-    /// OpticStudio's Zernike RMS fit error at one term, 1024², read on 2026-10-12: within its grid's
-    /// 2e-4, as for the single tolerances.
+    /// OpticStudio's Zernike RMS fit error at one term, 1024², read on 2026-10-12, and again on
+    /// 2026-10-30 for the lenses the new per-lens seeding draws: within its grid's 2e-4, as for the
+    /// single tolerances.
     /// </summary>
     [Theory]
-    [InlineData(0, 2, 0, 1.86529648)]
-    [InlineData(0, 0, 1, 0.35308169)]
-    [InlineData(0, 1, 2, 1.07044157)]
-    [InlineData(3, 2, 1, 1.56647496)]
-    [InlineData(3, 0, 0, 0.60699735)]
+    [InlineData(0, 2, 0, 2.32943682)]
+    [InlineData(0, 0, 1, 0.46350874)]
+    [InlineData(0, 1, 2, 1.35436471)]
+    [InlineData(3, 2, 1, 2.16476186)]
+    [InlineData(3, 0, 0, 1.00588803)]
     public void MonteCarloLensesAgreeWithOpticStudio(int trial, int field, int wave, double opticStudio)
     {
         const string set =
@@ -860,5 +861,42 @@ public class LensStatisticsTests
         Assert.InRange(p.SigmaQ / Math.Sqrt(mc.VarianceQ), 0.9, 1.1);
         Assert.InRange(p.ProbableWorst / mc.Percentile(Prediction.Yield97), 0.96, 1.04);
         Assert.NotEqual(0.0, p.BiasShift);
+    }
+}
+
+public class TrialSeedingTests
+{
+    private static double Correlation(double[] a, double[] b)
+    {
+        double ma = a.Average(), mb = b.Average();
+        double sab = 0, saa = 0, sbb = 0;
+        for (int i = 0; i < a.Length; i++)
+        {
+            sab += (a[i] - ma) * (b[i] - mb);
+            saa += (a[i] - ma) * (a[i] - ma);
+            sbb += (b[i] - mb) * (b[i] - mb);
+        }
+        return sab / Math.Sqrt(saa * sbb);
+    }
+
+    [Theory]
+    [InlineData(1)]
+    [InlineData(9)]
+    [InlineData(-4)]
+    public void LensesOfARunAreUnrelated(int seed)
+    {
+        // Each lens's first draw, across a run: no lens like the next, and spread as random draws
+        // are - the counts in tenths of the range scatter as a binomial does, neither more nor (as a
+        // grid would) far less. Seeding Random with numbers a fixed step apart failed both.
+        const int n = 40000;
+        var first = Enumerable.Range(0, n).Select(k => SplitMix.ForTrial(seed, k).NextDouble()).ToArray();
+        var second = Enumerable.Range(0, n).Select(k => { var r = SplitMix.ForTrial(seed, k); r.NextDouble(); return r.NextDouble(); }).ToArray();
+        Assert.True(Math.Abs(Correlation(first[..^1], first[1..])) < 4 / Math.Sqrt(n));
+        Assert.True(Math.Abs(Correlation(first, second)) < 4 / Math.Sqrt(n));
+        Assert.True(Math.Abs(Correlation(first[..^1], second[1..])) < 4 / Math.Sqrt(n));
+        var counts = new double[10];
+        foreach (var v in first) counts[(int)(v * 10)]++;
+        double expected = n / 10.0, chi2 = counts.Sum(c => (c - expected) * (c - expected) / expected);
+        Assert.InRange(chi2, 1.0, 27.9);     // 9 degrees of freedom: the 0.1 % and 99.9 % points
     }
 }
