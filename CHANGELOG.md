@@ -2,6 +2,11 @@
 
 Everything here is unreleased. The figures quoted when each step was made have moved as later work changed the defaults, so this file records what changed; [docs/verification.md](docs/verification.md) has the current figures.
 
+## Independent Monte Carlo lenses (2026-10-30)
+
+- Each traced Monte Carlo lens seeded .NET's `Random` with `seed * 1000003 + trial * 7919 + 17`. Seeds a fixed step apart give that generator related first draws: each lens's first error was correlated with the next lens's by 0.53, and a run's first errors fell on a near-regular grid instead of at random. Each lens now draws from its own SplitMix64 stream, its start the run's seed and the lens's number put through SplitMix64's mixing function, and a test holds that neighbouring lenses are unrelated and the draws scatter as chance does.
+- **What changes:** the same seed draws different lenses, so a Monte Carlo's digits change, not its statistics beyond their sampling error. The OpticStudio comparison of Monte Carlo lenses was made again on the new lenses (docs/verification.md, section 10).
+
 ## AberrationCalculator 536e74f, WavefrontErrorCalculator 0602dd7d (2026-10-19)
 
 - AberrationCalculator moves from 04ae89a to 536e74f, its PR #9, and WavefrontErrorCalculator from 557ea496 to 0602dd7d, its PR #9, which carries the same AberrationCalculator.

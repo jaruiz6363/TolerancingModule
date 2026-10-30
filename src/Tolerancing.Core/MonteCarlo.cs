@@ -171,5 +171,5 @@ public static class MonteCarlo
                                    int seed, int trial) =>
         Koch.Draw(groups, items, statistics, TrialRandom(seed, trial));
 
-    private static Random TrialRandom(int seed, int trial) => new(unchecked(seed * 1_000_003 + trial * 7919 + 17));
+    private static Random TrialRandom(int seed, int trial) => SplitMix.ForTrial(seed, trial);
 }
